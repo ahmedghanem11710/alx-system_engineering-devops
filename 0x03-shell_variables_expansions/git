@@ -1,5 +1,8 @@
+#!/bin/bash
+echo "enter name file"
 read n
-chmod u+x $(n)
+chmod u+x ${n}
 git add .
-git commit -m "Shell, init files, variables and expansions"
+git commit -m "${n}"
 git push
+
